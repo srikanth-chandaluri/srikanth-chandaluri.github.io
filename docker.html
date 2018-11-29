@@ -20,7 +20,7 @@
 </style>
 
 		<meta name="csrf-param" content="authenticity_token" />
-<meta name="csrf-token" content="owF4wMPMP2BLD7y7c6WZgT9AuSm3gtz28axYXtenLHTUTd2J4h7lvnVVOcnskXOge0U0cNKpY017Y0OrZ66szg==" />
+<meta name="csrf-token" content="VIlCm5OR4vmgritPi7PkDPc0oD2y6DNx30My1NVBKb7G1bg3MWmJl0Dn6G2wEFmfEKF+kp8kc/Id9lGO2k0pDA==" />
 		<style id="user-css-output" type="text/css"></style>
 	</head>
 	<body>
@@ -319,21 +319,7 @@ Example</p>
 <p>/*Take a look*/</p>
 </div></div></section></section><section class="stack" data-id="8220b9099b6c5c3e8381334e6bbe2501"><section data-id="57402d32783a34fd4fb7a87c2f58514c"><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 266px; height: auto;" data-block-id="76d8a4dc33ac500b59f605208c3dcb9f"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;">
 <h1 style="color:rgb(34, 34, 34)">5. DOCKERFILE</h1>
-</div></div></section><section data-id="2ad2bd2690eba40c29f0fb590f82a229"><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 140px; height: auto;" data-block-id="f54c85b5f263802b27f35d83f4292251"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
-<h2 style="color:rgb(34, 34, 34); font-size:1.6em">IMAGE LAYERS</h2>
-
-<ul style="color:rgb(34, 34, 34)">
-</ul>
-</div></div>
-<div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 280px; height: auto;" data-block-id="c2fbd9dca42b51f15903cb0a414f6eed"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;">
-<ul>
-	<li style="color:rgb(34, 34, 34)">Images are composed of multiple layers                         </li>
-	<li style="color:rgb(34, 34, 34)">A layer is also just another image</li>
-	<li style="color:rgb(34, 34, 34)">Every image contains a base layer</li>
-	<li style="color:rgb(34, 34, 34)">Docker uses a copy on write system</li>
-	<li style="color:rgb(34, 34, 34)">Layers are read only</li>
-</ul>
-</div></div></section><section data-id="35733bb200747c61e020aad4b611deba"><div class="sl-block" data-block-type="image" style="width: 710px; height: 554px; left: 125px; top: 70px; min-width: 4px; min-height: 4px;" data-block-id="1a2df2fb995c765fb653efd4f192d931"><div class="sl-block-content" style="z-index: 11;"><img style="" data-natural-width="892" data-natural-height="696" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/733623/images/5223475/docker_image_layers.png"></div></div></section><section data-id="b640f30d78085015e57ce94ef282df5c"><div class="sl-block" data-block-type="text" style="width: 806px; left: 80px; top: 78px; height: auto;" data-block-id="93da0865d748f61dcbbe1401d4fdd5dd"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
+</div></div></section><section data-id="b640f30d78085015e57ce94ef282df5c"><div class="sl-block" data-block-type="text" style="width: 806px; left: 80px; top: 78px; height: auto;" data-block-id="93da0865d748f61dcbbe1401d4fdd5dd"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
 <h2 style="color:rgb(34, 34, 34); font-size:1.6em">INTRO TO DOCKERFILE</h2>
 </div></div>
 <div class="sl-block" data-block-type="text" style="width: 806px; left: 80px; top: 171px; height: auto;" data-block-id="f130c259a1ec05633bdde62f0d6102bc"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;">
@@ -348,7 +334,21 @@ Example</p>
 </div></div>
 <div class="sl-block" data-block-type="code" style="min-width: 30px; min-height: 30px; width: 800px; height: 93px; left: 80px; top: 521px;" data-block-id="00d78a7dab26993f96281effc4bf0540"><div class="sl-block-content notranslate" style="z-index: 14; font-size: 150%;"><pre class="bash"><code>FROM ubuntu:14.04
 RUN apt-get install -y vim
-RUN apt-get install -y curl</code></pre></div></div></section><section data-id="4ca2195768508668bd4698c9de16af0c"><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 70px; height: auto;" data-block-id="6de911bcdad5e887519868b15394887f"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 11;">
+RUN apt-get install -y curl</code></pre></div></div></section><section data-id="2ad2bd2690eba40c29f0fb590f82a229"><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 140px; height: auto;" data-block-id="f54c85b5f263802b27f35d83f4292251"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
+<h2 style="color:rgb(34, 34, 34); font-size:1.6em">IMAGE LAYERS</h2>
+
+<ul style="color:rgb(34, 34, 34)">
+</ul>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 280px; height: auto;" data-block-id="c2fbd9dca42b51f15903cb0a414f6eed"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;">
+<ul>
+	<li style="color:rgb(34, 34, 34)">Images are composed of multiple layers                         </li>
+	<li style="color:rgb(34, 34, 34)">A layer is also just another image</li>
+	<li style="color:rgb(34, 34, 34)">Every image contains a base layer</li>
+	<li style="color:rgb(34, 34, 34)">Docker uses a copy on write system</li>
+	<li style="color:rgb(34, 34, 34)">Layers are read only</li>
+</ul>
+</div></div></section><section data-id="35733bb200747c61e020aad4b611deba"><div class="sl-block" data-block-type="image" style="width: 710px; height: 554px; left: 125px; top: 70px; min-width: 4px; min-height: 4px;" data-block-id="1a2df2fb995c765fb653efd4f192d931"><div class="sl-block-content" style="z-index: 11;"><img style="" data-natural-width="892" data-natural-height="696" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/733623/images/5223475/docker_image_layers.png"></div></div></section><section data-id="4ca2195768508668bd4698c9de16af0c"><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 70px; height: auto;" data-block-id="6de911bcdad5e887519868b15394887f"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 11;">
 <h2 style="color:rgb(34, 34, 34); font-size:1.6em">DOCKER BUILD</h2>
 
 <ul style="color:rgb(34, 34, 34)">
@@ -576,7 +576,7 @@ services:
 
 		
 <script>
-	var SLConfig = {"current_user":{"id":733623,"username":"srikanthreddy-2","name":"srikanth reddy","description":null,"thumbnail_url":"https://lh4.googleusercontent.com/-7mAWn-KbXO8/AAAAAAAAAAI/AAAAAAAABzE/ZKDogDw5QEg/photo.jpg?sz=50","paid":false,"pro":false,"lite":false,"team_id":null,"settings":{"id":583661,"present_controls":true,"present_upsizing":true,"present_pointer":false,"present_notes":true,"default_deck_tag_id":null,"editor_grid":true,"editor_grid_on_top":false,"editor_snap":true,"editor_fixed_notes":false,"developer_mode":false,"speaker_layout":null,"phone_number":null,"phone_country_code":null,"media_sources":"unsplash","export_controls":null,"export_slide_number":null,"export_slide_notes":null,"export_separate_fragments":null},"email":"srikanth14895@gmail.com","notify_on_receipt":true,"billing_address":null,"billing_vat_id":null,"editor_tutorial_completed":true,"manually_upgraded":false,"deck_user_editor_limit":1,"storage_used":721805,"storage_limit":262144000},"deck":{"id":1318403,"slug":"deck-3","title":"docker","description":"","width":960,"height":700,"visibility":"all","published_at":"2018-09-02T13:03:29.293Z","sanitize_messages":null,"thumbnail_url":"https://s3.amazonaws.com/media-p.slid.es/thumbnails/a93a43b924e5cf30ea3232a85686c9e4/thumb.jpg?1537158338","view_count":5,"user":{"id":733623,"username":"srikanthreddy-2","name":"srikanth reddy","description":null,"thumbnail_url":"https://lh4.googleusercontent.com/-7mAWn-KbXO8/AAAAAAAAAAI/AAAAAAAABzE/ZKDogDw5QEg/photo.jpg?sz=50","paid":false,"pro":false,"lite":false,"team_id":null,"settings":{"id":583661,"present_controls":true,"present_upsizing":true,"present_pointer":false,"present_notes":true,"default_deck_tag_id":null}},"background_transition":"slide","transition":"slide","theme_id":null,"theme_font":"montserrat","theme_color":"white-blue","auto_slide_interval":0,"comments_enabled":true,"forking_enabled":true,"rolling_links":false,"center":false,"shuffle":null,"should_loop":false,"share_notes":null,"slide_number":null,"slide_count":57,"rtl":false,"version":2,"collaborative":null,"deck_user_editor_limit":1,"data_updated_at":1543415996698,"font_typekit":null,"font_google":null,"notes":{}},"user":{"id":733623,"username":"srikanthreddy-2","name":"srikanth reddy","description":null,"thumbnail_url":"https://lh4.googleusercontent.com/-7mAWn-KbXO8/AAAAAAAAAAI/AAAAAAAABzE/ZKDogDw5QEg/photo.jpg?sz=50","paid":false,"pro":false,"lite":false,"team_id":null,"settings":{"id":583661,"present_controls":true,"present_upsizing":true,"present_pointer":false,"present_notes":true,"default_deck_tag_id":null}}};
+	var SLConfig = {"current_user":{"id":733623,"username":"srikanthreddy-2","name":"srikanth reddy","description":null,"thumbnail_url":"https://lh4.googleusercontent.com/-7mAWn-KbXO8/AAAAAAAAAAI/AAAAAAAABzE/ZKDogDw5QEg/photo.jpg?sz=50","paid":false,"pro":false,"lite":false,"team_id":null,"settings":{"id":583661,"present_controls":true,"present_upsizing":true,"present_pointer":false,"present_notes":true,"default_deck_tag_id":null,"editor_grid":true,"editor_grid_on_top":false,"editor_snap":true,"editor_fixed_notes":false,"developer_mode":false,"speaker_layout":null,"phone_number":null,"phone_country_code":null,"media_sources":"unsplash","export_controls":null,"export_slide_number":null,"export_slide_notes":null,"export_separate_fragments":null},"email":"srikanth14895@gmail.com","notify_on_receipt":true,"billing_address":null,"billing_vat_id":null,"editor_tutorial_completed":true,"manually_upgraded":false,"deck_user_editor_limit":1,"storage_used":721805,"storage_limit":262144000},"deck":{"id":1318403,"slug":"deck-3","title":"docker","description":"","width":960,"height":700,"visibility":"all","published_at":"2018-09-02T13:03:29.293Z","sanitize_messages":null,"thumbnail_url":"https://s3.amazonaws.com/media-p.slid.es/thumbnails/a93a43b924e5cf30ea3232a85686c9e4/thumb.jpg?1537158338","view_count":5,"user":{"id":733623,"username":"srikanthreddy-2","name":"srikanth reddy","description":null,"thumbnail_url":"https://lh4.googleusercontent.com/-7mAWn-KbXO8/AAAAAAAAAAI/AAAAAAAABzE/ZKDogDw5QEg/photo.jpg?sz=50","paid":false,"pro":false,"lite":false,"team_id":null,"settings":{"id":583661,"present_controls":true,"present_upsizing":true,"present_pointer":false,"present_notes":true,"default_deck_tag_id":null}},"background_transition":"slide","transition":"slide","theme_id":null,"theme_font":"montserrat","theme_color":"white-blue","auto_slide_interval":0,"comments_enabled":true,"forking_enabled":true,"rolling_links":false,"center":false,"shuffle":null,"should_loop":false,"share_notes":null,"slide_number":null,"slide_count":57,"rtl":false,"version":2,"collaborative":null,"deck_user_editor_limit":1,"data_updated_at":1543459767834,"font_typekit":null,"font_google":null,"notes":{}},"user":{"id":733623,"username":"srikanthreddy-2","name":"srikanth reddy","description":null,"thumbnail_url":"https://lh4.googleusercontent.com/-7mAWn-KbXO8/AAAAAAAAAAI/AAAAAAAABzE/ZKDogDw5QEg/photo.jpg?sz=50","paid":false,"pro":false,"lite":false,"team_id":null,"settings":{"id":583661,"present_controls":true,"present_upsizing":true,"present_pointer":false,"present_notes":true,"default_deck_tag_id":null}}};
 </script>
 
 		<script>
